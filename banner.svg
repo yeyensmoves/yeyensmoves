@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" shape-rendering="crispEdges" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#1a1f3d"/>
+    </linearGradient>
+    <clipPath id="typeclip">
+      <rect x="250" y="178" width="0" height="30">
+        <animate attributeName="width" values="0;420;420;0" keyTimes="0;0.45;0.9;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="320" fill="url(#bg)"/>
+
+  <!-- twinkling stars -->
+  <g fill="#ffffff">
+    <rect x="40" y="30" width="4" height="4"><animate attributeName="opacity" values="1;0.1;1" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="130" y="70" width="4" height="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="300" y="24" width="4" height="4"><animate attributeName="opacity" values="1;0.1;1" dur="2.5s" repeatCount="indefinite"/></rect>
+    <rect x="460" y="50" width="4" height="4"><animate attributeName="opacity" values="0.1;1;0.1" dur="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="600" y="28" width="4" height="4"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/></rect>
+    <rect x="760" y="64" width="4" height="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></rect>
+    <rect x="860" y="30" width="4" height="4"><animate attributeName="opacity" values="1;0.1;1" dur="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="560" y="90" width="4" height="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- ===== PIXEL LAPTOP ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3s" repeatCount="indefinite"/>
+    <!-- screen frame -->
+    <rect x="60" y="120" width="160" height="108" fill="#8892b0"/>
+    <rect x="64" y="124" width="152" height="100" fill="#2d3250"/>
+    <rect x="72" y="132" width="136" height="84" fill="#0b0f1a"/>
+    <!-- window dots -->
+    <rect x="78" y="137" width="6" height="6" fill="#ff5f56"/>
+    <rect x="88" y="137" width="6" height="6" fill="#ffbd2e"/>
+    <rect x="98" y="137" width="6" height="6" fill="#27c93f"/>
+    <!-- code lines (typing) -->
+    <rect x="80" y="150" width="0" height="6" fill="#4cc9f0"><animate attributeName="width" values="0;70;70;0" keyTimes="0;0.2;0.9;1" dur="6s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="92" y="161" width="0" height="6" fill="#f72585"><animate attributeName="width" values="0;54;54;0" keyTimes="0;0.2;0.9;1" dur="6s" begin="0.5s" repeatCount="indefinite"/></rect>
+    <rect x="92" y="172" width="0" height="6" fill="#ffd166"><animate attributeName="width" values="0;86;86;0" keyTimes="0;0.2;0.9;1" dur="6s" begin="1s" repeatCount="indefinite"/></rect>
+    <rect x="92" y="183" width="0" height="6" fill="#06d6a0"><animate attributeName="width" values="0;40;40;0" keyTimes="0;0.2;0.9;1" dur="6s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="80" y="194" width="0" height="6" fill="#4cc9f0"><animate attributeName="width" values="0;24;24;0" keyTimes="0;0.2;0.9;1" dur="6s" begin="2s" repeatCount="indefinite"/></rect>
+    <!-- cursor -->
+    <rect x="80" y="205" width="6" height="8" fill="#ffffff"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+    <!-- base -->
+    <rect x="44" y="228" width="192" height="12" fill="#8892b0"/>
+    <rect x="100" y="228" width="80" height="4" fill="#5c6784"/>
+    <rect x="52" y="240" width="176" height="4" fill="#5c6784"/>
+  </g>
+
+  <!-- ===== PIXEL CAMERA ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <!-- top bump + shutter -->
+    <rect x="700" y="124" width="52" height="16" fill="#3a4170"/>
+    <rect x="812" y="128" width="20" height="12" fill="#f72585"/>
+    <!-- flash -->
+    <rect x="770" y="128" width="24" height="12" fill="#ffd166">
+      <animate attributeName="opacity" values="1;1;0.15;1;1" keyTimes="0;0.7;0.78;0.86;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <!-- body -->
+    <rect x="676" y="140" width="176" height="104" fill="#2d3250"/>
+    <rect x="676" y="140" width="176" height="8" fill="#3a4170"/>
+    <rect x="676" y="212" width="176" height="32" fill="#1d2140"/>
+    <!-- lens -->
+    <rect x="728" y="158" width="72" height="72" fill="#0b0f1a"/>
+    <rect x="736" y="166" width="56" height="56" fill="#3a86ff"/>
+    <rect x="744" y="174" width="40" height="40" fill="#1d3a8a"/>
+    <rect x="752" y="182" width="24" height="24" fill="#0b0f1a"/>
+    <rect x="756" y="186" width="8" height="8" fill="#ffffff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <!-- rec light -->
+    <rect x="690" y="156" width="10" height="10" fill="#ff3b3b">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- flash sparkles near camera -->
+  <g fill="#ffd166">
+    <rect x="800" y="104" width="6" height="6"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.7;0.8;1" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="816" y="92" width="4" height="4"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.72;0.82;1" dur="3s" repeatCount="indefinite"/></rect>
+    <rect x="786" y="92" width="4" height="4"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.74;0.84;1" dur="3s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- ===== TEXT ===== -->
+  <g font-family="'Courier New', Courier, monospace" text-anchor="middle">
+    <text x="450" y="104" font-size="26" font-weight="bold" fill="#ffffff">MIGUEL TERENCE JARIN</text>
+    <text x="450" y="104" font-size="26" font-weight="bold" fill="#4cc9f0" opacity="0.35" dx="2" dy="2">MIGUEL TERENCE JARIN</text>
+    <text x="450" y="140" font-size="15" fill="#06d6a0">&lt;/&gt; yeyensmoves</text>
+    <text x="450" y="168" font-size="14" fill="#ffd166">Frontend Dev • Video Editor • Creative Tech</text>
+    <g clip-path="url(#typeclip)">
+      <text x="450" y="198" font-size="13" fill="#c9d1d9">Turning ideas into digital experiences &amp; visual stories.</text>
+    </g>
+  </g>
+
+  <!-- ===== PIXEL GROUND ===== -->
+  <g fill="#2d3250">
+    <rect x="0" y="272" width="900" height="8"/>
+  </g>
+  <g fill="#3a4170">
+    <rect x="0" y="280" width="900" height="40"/>
+  </g>
+  <g fill="#4cc9f0">
+    <rect x="0" y="272" width="900" height="2" opacity="0.6"/>
+  </g>
+  <!-- running pixel dot -->
+  <rect x="0" y="262" width="10" height="10" fill="#f72585">
+    <animate attributeName="x" values="-20;910" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="254" width="10" height="8" fill="#ffd166">
+    <animate attributeName="x" values="-20;910" dur="7s" repeatCount="indefinite"/>
+  </rect>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowZGE0Y2VlYS0yNGE4LTQ1NGMtOGJlOC0xNTk2MGMxNDI4MDYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDBj7eNvOIZbKDUcLB/2UWQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpkNmQ4MWM4OC0yOWQ5LTQxODUtODhkYy0xYjE2ZTBkNWVjYTBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoEy0UdkKKeheq2FOv4yfWcAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgga1fCALeaToeKvVkRTUMvF49U4nMj0YceJ2p66hTMD2akZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLpPPDFnvUTfZNbHCkFu2H8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIPgDt8mYzfi0qKAWA6I8b9Mz4XY4XMgLFvq6AX2D9rKFZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GRvkZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjBkYTRjZWVhLTI0YTgtNDU0Yy04YmU4LTE1OTYwYzE0MjgwNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjhkNDJkM2I0LTY3MjUtNGNlNi1hYmUzLTg5ZTkyOGFhOGFhN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBrV8IAt5pOh4q9WRFNQy8Xj1TicyPRhx4nanrqFMwPZqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggB8VTvAwAD/ddMQXZYSRaq6SZIC1ht0Z6ZFz8EjZ2C4uiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggW3k8MP+Lru9fMhn96/jjZqxlEkl9f9Jwd1ZbUuMgyDZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCISpGvgqYgJIJrTs/lGf1+Zi/YUlbIQ1CM1JKl+NVYSktEvj8nfjJ+BKOnEoO26979lNpptMKIYpcdmWN7Q8yc=</c2pa:manifest></metadata></svg>
