@@ -31,7 +31,7 @@ const miguel = {
   name: "Miguel Terence Jarin",
   handle: "yeyensmoves",
   location: "Philippines 🇵🇭",
-  roles: ["Frontend Developer", "Video Editor", "Creative Technologist"],
+  roles: ["Frontend & Backend Developer", "Video Editor", "Creative Technologist"],
   currentlyLearning: ["Full-stack development", "UI/UX design", "Better storytelling"],
   hobbies: ["Photography 📸", "Videography 🎥", "Video editing 🎬", "Building websites 💻"],
   funFact: "I like turning code and camera footage into experiences people remember."
