@@ -90,58 +90,6 @@ I enjoy building websites, exploring new technologies, and creating visual conte
 
 ---
 
-<!-- GitHub Trophies -->
-## 🏆 GitHub Achievements
-
-<div align="center">
-
-<img width="95%" src="https://github-profile-trophy.vercel.app/?username=yeyensmoves&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub Trophies" />
-
-</div>
-
----
-
-<!-- Contribution Graph -->
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=yeyensmoves&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Contribution Activity Graph" />
-
-</div>
-
----
-
-<!-- Featured Projects -->
-## 🚀 Featured Projects
-
-<div align="center">
-
-<!-- Replace the repository names below with your actual projects -->
-
-<a href="https://github.com/yeyensmoves/YOUR_PROJECT_1">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yeyensmoves&repo=YOUR_PROJECT_1&theme=tokyonight&hide_border=true" alt="Featured Project 1" />
-</a>
-
-<a href="https://github.com/yeyensmoves/YOUR_PROJECT_2">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yeyensmoves&repo=YOUR_PROJECT_2&theme=tokyonight&hide_border=true" alt="Featured Project 2" />
-</a>
-
-</div>
-
----
-
-<!-- Currently Learning -->
-## 🌱 Currently Exploring
-
-- Modern frontend development
-- Backend development and database management
-- Responsive web design
-- Image processing and computer vision
-- Creative storytelling and video production
-
----
-
 <!-- Connect With Me -->
 ## 🤝 Let's Connect!
 
