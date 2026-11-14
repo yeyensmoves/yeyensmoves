@@ -23,7 +23,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="film strip divider" />
+<img src="divider.svg" width="100%" alt="film strip divider" />
 
 <!-- ============ ABOUT ============ -->
 ## 💫 About Me
@@ -46,16 +46,16 @@ const miguel = {
 - 🌱 Constantly learning and levelling up my dev skills
 - 🚀 Building **meaningful and practical** digital projects
 
-<img src="./assets/divider.svg" width="100%" alt="film strip divider" />
+<img src="divider.svg" width="100%" alt="film strip divider" />
 
 <!-- ============ HOBBIES ============ -->
 ## 🎮 What I Love Doing
 
 <div align="center">
-  <img src="./assets/hobbies.svg" alt="Pixel art: camera for photography, clapperboard for video editing, laptop for coding" width="100%" />
+  <img src="hobbies.svg" alt="Pixel art: camera for photography, clapperboard for video editing, laptop for coding" width="100%" />
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="film strip divider" />
+<img src="divider.svg" width="100%" alt="film strip divider" />
 
 <!-- ============ TECH STACK ============ -->
 ## 🛠️ Tech Stack
@@ -90,7 +90,7 @@ const miguel = {
   <img src="https://skillicons.dev/icons?i=git,github,vscode,linux" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="film strip divider" />
+<img src="divider.svg" width="100%" alt="film strip divider" />
 
 <!-- ============ ANALYTICS ============ -->
 ## 📊 GitHub Analytics
@@ -106,7 +106,7 @@ const miguel = {
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="film strip divider" />
+<img src="divider.svg" width="100%" alt="film strip divider" />
 
 <!-- ============ CONNECT ============ -->
 ## 🤝 Let's Connect!
