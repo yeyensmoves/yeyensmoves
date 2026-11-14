@@ -5,7 +5,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=header" width="100%" />
 
-<img src="./assets/banner.svg" alt="Miguel Terence Jarin - pixel laptop and camera banner" width="100%" />
+<img src="banner.svg" alt="Miguel Terence Jarin - pixel laptop and camera banner" width="100%" />
 
 <a href="https://github.com/yeyensmoves">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=4CC9F0&center=true&vCenter=true&width=640&lines=Frontend+Developer+%F0%9F%92%BB;Video+Editor+%F0%9F%8E%AC;Photographer+%F0%9F%93%B8;Creative+Technologist+%E2%9C%A8;Building+digital+experiences+%26+visual+stories" alt="Typing animation" />
